@@ -46,3 +46,8 @@ ul li {
     padding: 0px;
     padding-left: 15px;
 }
+
+.projects {
+    display: grid;
+    grid-template: 50px 1fr / 3fr 1fr
+}
