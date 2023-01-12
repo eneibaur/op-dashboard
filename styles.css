@@ -22,7 +22,7 @@ ul li {
 
 .container {
     display: grid;
-    grid-template: 1fr 4fr / 1fr 4fr;
+    grid-template: 1fr 4fr / minmax(300px, .75fr) 4fr;
     height: 100vh;
 }
 
