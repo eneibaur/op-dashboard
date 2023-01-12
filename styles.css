@@ -22,6 +22,7 @@ div {
     background-color: rgb(64, 136, 218);
     color: aliceblue;
     display: grid;
+    grid-template-rows: 50px 1fr 1fr;
     gap: 30px;
 }
 
