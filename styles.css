@@ -49,7 +49,7 @@ ul li {
 
 .projects {
     display: grid;
-    grid-template: 50px 1fr / 3fr 1fr;
+    grid-template: 50px 1fr 50px / 3fr 1fr;
     padding: 15px;
     gap: 15px;
 }
