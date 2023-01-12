@@ -5,6 +5,7 @@ body {
 
 div {
     border: 1px solid red;
+    padding: 15px;
 }
 
 ul {
@@ -16,6 +17,7 @@ ul {
 ul li {
     display: grid;
     grid-template-columns: 50px 1fr;
+    align-items: center;
 }
 
 .container {
