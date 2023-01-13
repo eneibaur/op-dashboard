@@ -64,6 +64,11 @@ ul li {
     padding-left: 10px;
 }
 
+.row {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
 .flex-search {
     display: flex;
     align-items: center;
