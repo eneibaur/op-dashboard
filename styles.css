@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -22,6 +24,9 @@ ul li {
 
 li > p, .company > p {
     padding-left: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    line-height: .5rem;
 }
 
 .container {
