@@ -23,7 +23,7 @@ ul li {
 }
 
 li > p, .company > p {
-    padding-left: 15px;
+    padding-left: 10px;
     font-family: 'Rubik', sans-serif;
     font-size: 1.5rem;
     line-height: .5rem;
@@ -31,6 +31,10 @@ li > p, .company > p {
 
 img {
     max-width: 30px;
+}
+
+input {
+    width: 90%;
 }
 
 .company > img {
