@@ -67,6 +67,7 @@ ul li {
 .row {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding: 15px;
 }
 
 .flex-search {
