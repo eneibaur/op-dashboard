@@ -63,3 +63,9 @@ ul li {
 .cards {
     padding-left: 10px;
 }
+
+.flex-search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
