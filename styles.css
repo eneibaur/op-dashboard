@@ -103,9 +103,14 @@ input {
     align-items: center;
     gap: 10px;
 }
-.user {
+.user-icons {
     display: flex;
     align-items: center;
     gap: 5px;
     justify-content: space-around;
+}
+
+.user {
+    display: flex;
+    align-items: center;
 }
