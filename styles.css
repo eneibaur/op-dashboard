@@ -20,6 +20,10 @@ ul li {
     align-items: center;
 }
 
+li > p, .company > p {
+    padding-left: 15px;
+}
+
 .container {
     display: grid;
     grid-template: 1fr 4fr / minmax(300px, .75fr) 4fr;
