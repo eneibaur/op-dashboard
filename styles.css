@@ -32,7 +32,7 @@ img {
     max-width: 30px;
 }
 
-img[alt="placeholder-user-icon"] {
+.user > img[alt="placeholder-user-icon"] {
     min-width: 75px;
     height: auto;
 
@@ -40,6 +40,9 @@ img[alt="placeholder-user-icon"] {
 
 input {
     width: 90%;
+    border-radius: 1rem;
+    border: 1px solid rgb(195, 195, 226);
+    background-color: rgb(195, 195, 226);
 }
 
 .company > img {
@@ -48,7 +51,7 @@ input {
 
 .container {
     display: grid;
-    grid-template: 1fr 4fr / minmax(300px, .75fr) 4fr;
+    grid-template: .5fr 5fr / minmax(300px, .75fr) 4fr;
     height: 100vh;
 }
 
@@ -100,7 +103,7 @@ input {
 .row {
     display: grid;
     grid-template-columns: minmax(400px, 3fr) minmax(200px, 300px);
-    padding: 15px;
+    padding: 5px 15px 5px 30px;
 }
 
 .flex-search {
