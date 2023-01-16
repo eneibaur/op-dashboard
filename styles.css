@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
+:root {
+    --bg-blue: rgb(219, 219, 245);
+    --sidebar-blue: rgb(85, 157, 238);
+    --accent: rgb(243, 229, 26);
+}
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 div {
@@ -41,8 +48,18 @@ img {
 input {
     width: 90%;
     border-radius: 1rem;
-    border: 1px solid rgb(195, 195, 226);
-    background-color: rgb(195, 195, 226);
+    border: 1px solid var(--bg-blue);
+    background-color: var(--bg-blue);
+}
+
+button {
+    color: aliceblue;
+    border-radius: 2rem;
+    background-color: var(--sidebar-blue);
+    border: 1px solid var(--sidebar-blue);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
 }
 
 .company > img {
@@ -62,7 +79,7 @@ input {
 
 .sidebar {
     grid-row: 1 / 4;
-    background-color: rgb(64, 136, 218);
+    background-color: var(--sidebar-blue);
     color: aliceblue;
     display: grid;
     grid-template-rows: 50px 1fr 1fr;
@@ -80,15 +97,15 @@ input {
 .projects {
     display: grid;
     grid-template: 50px 1fr 50px / 3fr 1fr;
-    padding: 15px;
+    padding: 30px;
     gap: 15px;
-    background-color: rgb(199, 199, 226);
+    background-color: var(--bg-blue);
     padding-right: 30px;
 }
 
 .project-cards {
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -98,6 +115,7 @@ input {
     background-color: white;
     border-radius: 1rem;
     padding: 15px;
+    border-left: 10px solid var(--accent);
 }
 
 .row {
@@ -116,8 +134,9 @@ input {
     display: grid;
     grid-template-columns: repeat(3, minmax(50px, 1fr));
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
+
 .user-icons {
     display: flex;
     align-items: center;
