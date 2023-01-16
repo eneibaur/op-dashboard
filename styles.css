@@ -133,3 +133,10 @@ input {
 .greeting {
     margin-left: 15px;
 }
+
+.card-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 10px;
+}
